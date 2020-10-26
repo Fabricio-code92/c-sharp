@@ -67,7 +67,7 @@ public class Inventario
         movimientoInventario(codigo, Int32.Parse(cantidad), "+");
     }
 
-    public void salidaDeInventario(){
+    public void salidaDeInventario() {
         string codigo = "";
         string cantidad = "";
 
@@ -84,7 +84,6 @@ public class Inventario
         movimientoInventario(codigo, Int32.Parse(cantidad), "-");
 
 }
-
 
 }
 
